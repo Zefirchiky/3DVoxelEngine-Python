@@ -1,3 +1,4 @@
+from pygame.locals import *
 from settings import *
 from shader_program import ShaderProgram
 from scene import Scene
@@ -6,6 +7,7 @@ from textures import Textures
 from HUD import HUD
 
 pg.init()
+pg.display.gl_set_attribute(pg.GL_MULTISAMPLEBUFFERS, 1)
 pg.display.set_mode(WIN_RES, flags=pg.OPENGL | pg.DOUBLEBUF)
 
 FPS = 60
