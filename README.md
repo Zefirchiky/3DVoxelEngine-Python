@@ -1,1 +1,2 @@
-Basic Minecraft clone build with PyGame and ModernGL.
+3D Voxel Engine, written in python with PyGame and ModernGL.
+Very simple minecraft copy.
