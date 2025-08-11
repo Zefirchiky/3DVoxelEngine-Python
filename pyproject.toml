@@ -1,0 +1,14 @@
+[project]
+name = "minecraft"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "moderngl>=5.12.0",
+    "numba>=0.61.2",
+    "numpy>=2.2.6",
+    "opensimplex>=0.4.5.1",
+    "pygame>=2.6.1",
+    "pyglm>=2.8.2",
+]

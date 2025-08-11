@@ -6,8 +6,6 @@ from textures import Textures
 from HUD import HUD
 
 pg.init()
-os.chdir("C:\AllArtem\Programer\Python\Games\Minecraft")
-
 pg.display.set_mode(WIN_RES, flags=pg.OPENGL | pg.DOUBLEBUF)
 
 FPS = 60
